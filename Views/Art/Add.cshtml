@@ -1,0 +1,15 @@
+﻿@model Web_Dev_Project.Models.Art
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "JBLM Edit";
+}
+
+
+    <h1>Adding new art ...</h1>
+    @using (Html.BeginForm())
+    {
+
+        @Html.EditorForModel()
+        <input type="submit" value="Add some Art!" />
+    }
+

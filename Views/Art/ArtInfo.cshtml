@@ -1,0 +1,15 @@
+﻿@model Web_Dev_Project.Models.Art
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "JBLM Edit";
+}
+
+@Html.LabelFor(model => model.PieceName) 
+        @Html.DisplayFor(model => model.PieceName) <br />
+        @Html.LabelFor(model => model.Description) 
+        @Html.DisplayFor(model => model.Description) <br />
+
+
+
+
